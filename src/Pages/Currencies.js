@@ -13,7 +13,7 @@ export default function Currencies (props) {
   ];
 
   return (
-    <div className="currencies">
+    <div className="bg-slate-600 text-blue-300 text-3xl">
       {currencies.map((coin) => {
         const { name, symbol } = coin;
 
